@@ -36,8 +36,22 @@
     <main class="middle">
         <!-- Блок презентаций / прокручивается -->
         <div class="presentation-block">
-            <h1 class="presentation-block__header">Minto</h1>
-            <p class="presentation-block__text">A minimal Web Design from cssauthor.com</p>
+            <input type="radio" id="btn-1" name="toggle" checked>
+            <input type="radio" id="btn-2" name="toggle">
+            <div class="presentation-slides">
+                <div class="presentation-slides__1">
+                    <label class="left-arrow" for="btn-1"></label>
+                    <label class="right-arrow" for="btn-2"></label>
+                    <h1 class="presentation-block__header slides__1">Minto</h1>
+                    <p class="presentation-block__text slides__1">A minimal Web Design from cssauthor.com</p>
+                </div>
+                <div class="presentation-slides__2">
+                    <label class="left-arrow" for="btn-1"></label>
+                    <label class="right-arrow" for="btn-2"></label>
+                    <h1 class="presentation-block__header slides__2">Winto</h1>
+                    <p class="presentation-block__text slides__2">!A winimal Web Design from cssauthor.com</p>
+                </div>
+            </div>
         </div>
 
         <!-- Текст не знаю к чему онести полэтому отдельный  блок -->
